@@ -1,6 +1,5 @@
 package com.example.testcomposenavigation.menu
 
-import android.view.MenuItem
 import com.example.testcomposenavigation.R
 
 data class MenuItem(
@@ -8,7 +7,7 @@ data class MenuItem(
     val textId: Int
 )
 
-val drawerScreens = listOf(
+val screenMenuItems = listOf(
     MenuItem(ScreensRoute.Screen_1, R.string.screen_1),
     MenuItem(ScreensRoute.Screen_2, R.string.screen_2),
     MenuItem(ScreensRoute.Screen_3, R.string.screen_3),
