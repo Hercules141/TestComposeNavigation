@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TestComposeNavigation</string>
+    <string name="app_name">Test Compose Navigation</string>
 <!--    Strings for menu items-->
     <string name="screen_1">Screen 1</string>
     <string name="screen_2">Screen 2</string>
