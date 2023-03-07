@@ -13,7 +13,6 @@ import androidx.navigation.compose.rememberNavController
 import com.example.testcomposenavigation.menu.ComposeMenu
 import com.example.testcomposenavigation.menu.NavHost
 import com.example.testcomposenavigation.menu.screenMenuItems
-import com.example.testcomposenavigation.ui.theme.TestComposeNavigationTheme
 import kotlinx.coroutines.launch
 
 class MainActivity : ComponentActivity() {
@@ -29,11 +28,15 @@ class MainActivity : ComponentActivity() {
                     Greeting("Android")
                 }
             }*/
-
+            NavigationMenuScreen()
         }
     }
 }
 
+
+/**
+ * @param *something* is cool
+ */
 @Preview (showBackground = true)
 @Composable
 fun NavigationMenuScreen() {
@@ -66,6 +69,7 @@ fun NavigationMenuScreen() {
                 navController.navigate(it.id.name){
                     popUpToId
                     launchSingleTop = true
+
                 }
             }
         }
@@ -82,6 +86,6 @@ fun NavigationMenuScreen() {
 //@Composable
 //fun DefaultPreview() {
 //    TestComposeNavigationTheme {
-//        // todo preivew
+//        // todo preview
 //    }
 //}

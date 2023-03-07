@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">Test Compose Navigation</string>
-<!--    Strings for menu items-->
+    <!--    Strings for menu items-->
     <string name="screen_1">Screen 1</string>
     <string name="screen_2">Screen 2</string>
     <string name="screen_3">Screen 3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
